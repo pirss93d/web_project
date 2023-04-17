@@ -1,0 +1,148 @@
+$bg__color: #ffffff;
+$feedback__form--color: #b5b6bc;
+$feedback__color--text: #1b1c21;
+$feedback__color: #ffffff;
+$feedback__border--color: #eaeaea;
+$personal__color--text: #7e7e82;
+$persomal__span--text: #ff3e79;
+.feedback__chat {
+  display: none;
+  position: absolute;
+  background-color: $bg__color;
+  width: 320px;
+  height: 676px;
+  z-index: 3;
+  &--section {
+    margin-top: 24px;
+    width: 304px;
+    height: 526px;
+    .cross__feedback {
+      margin-left: 16px;
+    }
+    .feedback__form {
+      display: flex;
+      margin-top: 32px;
+      width: 260px;
+      height: 400px;
+      color: $feedback__form--color;
+      &--input {
+        margin-left: 12px;
+        margin-top: 8px;
+        .feedback__text {
+          font-family: 'TTLakes-Bold';
+          width: 288px;
+          height: 32px;
+          font-size: 24px;
+          line-height: 32px;
+          letter-spacing: -0.6px;
+          color: $feedback__color--text;
+        }
+        .feedback__name {
+          font-family: 'TTLakes-Medium';
+          margin-top: 24px;
+          width: 288px;
+          height: 48px;
+          color: $feedback__color--text;
+          font-size: 16px;
+          background: $feedback__color;
+          border: 1px solid $feedback__border--color;
+          border-radius: 8px;
+        }
+        .feedback__name::placeholder {
+          font-family: 'TTLakes-Medium';
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: -0.2px;
+          color: $feedback__form--color;
+          padding-top: 12px;
+          padding-left: 16px;
+        }
+        .feedback__telephone {
+          font-family: 'TTLakes-Medium';
+          margin-top: 16px;
+          width: 288px;
+          height: 48px;
+          background: $feedback__color;
+          border: 1px solid $feedback__border--color;
+          border-radius: 8px;
+          font-size: 16px;
+        }
+        .feedback__telephone::placeholder {
+          font-family: 'TTLakes-Medium';
+          padding: 12px 16px;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: -0.2px;
+          color: $feedback__form--color;
+        }
+        .feedback__email {
+          font-family: 'TTLakes-Medium';
+          margin-top: 16px;
+          width: 288px;
+          height: 48px;
+          background: $feedback__color;
+          border: 1px solid $feedback__border--color;
+          border-radius: 8px;
+          font-size: 16px;
+        }
+        .feedback__email::placeholder {
+          font-family: 'TTLakes-Medium';
+          padding: 12px 16px;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: -0.2px;
+          color: $feedback__form--color;
+        }
+        .feedback__message {
+          margin-top: 16px;
+          width: 288px;
+          height: 118px;
+          background: $feedback__color;
+          border: 1px solid $feedback__border--color;
+          border-radius: 8px;
+          &--text {
+            font-family: 'TTLakes-Medium';
+            width: 288px;
+            height: 118px;
+            background: $feedback__color;
+            border: 1px solid $feedback__border--color;
+            border-radius: 8px;
+            font-size: 16px;
+            resize: none;
+          }
+          &--text::placeholder {
+            font-family: 'TTLakes-Medium';
+            padding: 12px 16px;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+            color: $feedback__form--color;
+          }
+        }
+        .personal__information {
+          font-family: 'TTLakes-Medium';
+          margin-top: 16px;
+          width: 288px;
+          height: 64px;
+          font-size: 14px;
+          line-height: 16px;
+          color: $personal__color--text;
+          &--text {
+            color: $persomal__span--text;
+          }
+        }
+        .button__send {
+          margin-top: 16px;
+          margin-left: 152px;
+          border: none;
+        }
+      }
+    }
+  }
+}
+.menu__section--chat {
+  cursor: pointer;
+}
+.cross__feedback {
+  cursor: pointer;
+}

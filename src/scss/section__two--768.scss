@@ -1,0 +1,59 @@
+@media (min-width: 768px) {
+  main {
+    .section__two {
+      width: 768px;
+      height: auto;
+      &--slider {
+        margin-top: 46px;
+        width: 768px;
+        height: auto;
+        .slider__line {
+          width: 768px;
+        }
+        .slider__info {
+          width: 768px;
+          height: 56px;
+          &--text {
+            margin-top: 16px;
+            margin-left: 24px;
+            width: 338px;
+            height: 24px;
+            white-space: nowrap;
+          }
+        }
+      }
+      &--fade {
+        display: none;
+      }
+      .button__two {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
+        margin-left: 24px;
+        width: 132px;
+        height: 24px;
+        cursor: pointer;
+        &--text {
+          font-family: 'TTLakes-Medium';
+          text-align: center;
+          width: 100px;
+          height: 24px;
+          white-space: nowrap;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: -0.2px;
+          color: #1b1c21;
+        }
+        .arrow__top {
+          display: none;
+          margin-top: 7px;
+          margin-left: 8px;
+        }
+        .arrow__bottom {
+          display: block;
+        }
+      }
+    }
+  }
+}

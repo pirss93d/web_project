@@ -1,0 +1,27 @@
+@media (min-width: 1366px) {
+  footer {
+    .footer__content {
+      margin: 50px;
+      width: 1120px;
+      margin-left: 306px;
+      .footer__line {
+        margin: 0;
+        width: 1120px;
+      }
+      &--apesong {
+        margin-top: 32px;
+        margin-left: 31px;
+      }
+      &--policy {
+        margin-top: 32px;
+        margin-left: 394px;
+      }
+      &--public {
+        width: 330px;
+        height: 32px;
+        margin-top: 32px;
+        margin-left: 757px;
+      }
+    }
+  }
+}

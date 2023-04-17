@@ -1,0 +1,37 @@
+@media (min-width: 1366px) {
+  .request__call {
+    width: 440px;
+    &--close {
+      transform: translate(360px, -10px);
+    }
+    &--highlight {
+      position: absolute;
+      margin-top: 32px;
+    }
+    &--text {
+      font-family: 'TTLakes-Bold';
+      position: absolute;
+      width: 190px;
+      height: 32px;
+      transform: translate(32px, 40px);
+    }
+    &--phone {
+      transform: translate(32px, 96px);
+      .enter__phone {
+        width: 376px;
+      }
+    }
+    &--processing {
+      font-family: 'TTLakes-Regular';
+      width: 376px;
+      height: 48;
+      transform: translate(32px, 160px);
+      br {
+        display: none;
+      }
+    }
+    &--send {
+      transform: translate(272px, 224px);
+    }
+  }
+}

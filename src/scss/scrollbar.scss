@@ -1,0 +1,11 @@
+$scrollbar__thumb-color: #09e0f0;
+$box__scrollbar--color: #f3faf7;
+
+::-webkit-scrollbar {
+  height: 3px; /* высота для горизонтального скролла */
+}
+::-webkit-scrollbar-thumb {
+  background-color: $scrollbar__thumb-color;
+  border-radius: 6px;
+  box-shadow: inset 1px 1px 10px $box__scrollbar--color;
+}

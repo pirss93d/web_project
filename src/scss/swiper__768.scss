@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+  .swiper.one {
+    width: 720px;
+    height: 160px;
+    margin-top: 24px;
+    margin-left: 24px;
+    .swiper-wrapper {
+      justify-content: space-between;
+      flex-wrap: wrap;
+      height: auto;
+
+      .swiper-slide {
+        width: 224px;
+        height: 72px;
+        margin-bottom: 10px;
+        .icon__go {
+          margin-top: 16px;
+          margin-left: 168px;
+        }
+      }
+    }
+  }
+}

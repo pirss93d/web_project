@@ -1,0 +1,55 @@
+@media (min-width: 768px) {
+  .menu {
+    width: 320px;
+    height: 1024px;
+
+    &__content {
+      &--group {
+        margin-top: 18.73px;
+      }
+      &--search {
+        margin-left: 78.73px;
+      }
+    }
+    &__list {
+      margin-top: 116px;
+      width: 320px;
+      &--services {
+        margin-left: 20px;
+        .service__services {
+          margin-top: 32px;
+        }
+        .corporative__clients {
+          margin-top: 32px;
+        }
+        .equipment__sellers {
+          margin-top: 32px;
+        }
+        .services__partners {
+          margin-top: 32px;
+        }
+        .services__manufacturers {
+          margin-top: 32px;
+        }
+        .our__service {
+          margin-top: 32px;
+        }
+        .servises__contacts {
+          margin-top: 32px;
+        }
+      }
+    }
+    &__section {
+      margin-top: 268px;
+      margin-left: 24px;
+    }
+    &__email {
+      margin-top: 16px;
+      margin-left: 24px;
+    }
+    &__languages {
+      margin-top: 40px;
+      margin-left: 24px;
+    }
+  }
+}

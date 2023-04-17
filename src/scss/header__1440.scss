@@ -1,0 +1,41 @@
+@media (min-width: 1366px) {
+  .header {
+    display: block;
+    width: 0;
+    height: 0;
+    margin: 0;
+    .header__icons {
+      margin: 0;
+      .icon__burger {
+        display: none;
+      }
+      .icon__divider--768 {
+        display: none;
+      }
+      .icon__group {
+        display: none;
+      }
+      .icon__divider {
+        display: none;
+      }
+      .icon__repair {
+        display: none;
+      }
+      .icon__checkst {
+        display: none;
+      }
+      .icon__call {
+        display: none;
+      }
+      .icon__chat {
+        display: none;
+      }
+      .icon__profile {
+        display: none;
+      }
+    }
+  }
+  .header__shadow {
+    display: none;
+  }
+}

@@ -1,0 +1,35 @@
+@media (min-width: 1366px) {
+  .section__four {
+    margin-top: 0;
+    margin-left: 306px;
+    width: 1120px;
+    .services__768 {
+      width: 722px;
+      margin-top: 31px;
+      margin-left: 56px;
+      &--price {
+        margin-left: 344px;
+      }
+      &--time {
+        margin-left: 192px;
+      }
+    }
+    .section__info {
+      width: 1120px;
+      margin-top: 51px;
+      .four__line {
+        width: 1120px;
+      }
+      .section__title {
+        margin-left: 32px;
+      }
+    }
+    &--nds {
+      margin-top: 32px;
+      margin-left: 32px;
+    }
+    &--offer {
+      margin-left: 32px;
+    }
+  }
+}

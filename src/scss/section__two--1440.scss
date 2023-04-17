@@ -1,0 +1,28 @@
+@media (min-width: 1366px) {
+  main {
+    .section__two {
+      margin-left: 306px;
+      width: 1120px;
+      &--slider {
+        width: 1120px;
+        margin: 0;
+        .button__two {
+          margin-top: 24px;
+          margin-left: 32px;
+        }
+        .slider__line {
+          width: 1120px;
+        }
+        .slider__info {
+          width: 1120px;
+          height: 56px;
+          &--text {
+            width: 338px;
+            height: 24px;
+            margin-left: 32px;
+          }
+        }
+      }
+    }
+  }
+}

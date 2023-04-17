@@ -1,0 +1,70 @@
+$bg__request--color: #ffffff;
+$request__text--color: #1b1c21;
+$enter__border--color: #eaeaea;
+$enter__phone--color: #b5b6bc;
+$processing__text--color: #ff3e79;
+.request__call {
+  display: none;
+  position: absolute;
+  width: 320px;
+  height: 676px;
+  background-color: $bg__request--color;
+  z-index: 2;
+  cursor: pointer;
+  &--close {
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 16px;
+  }
+  &--highlight {
+    position: absolute;
+    margin-top: 96px;
+  }
+  &--text {
+    font-family: 'TTLakes-Bold';
+    position: absolute;
+    width: 288px;
+    height: 32px;
+    transform: translate(16px, 104px);
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: $request__text--color;
+  }
+  &--phone {
+    position: absolute;
+    transform: translate(16px, 160px);
+    .enter__phone {
+      width: 288px;
+      height: 48px;
+      background: $bg__request--color;
+      border: 1px solid $enter__border--color;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+    .enter__phone::placeholder {
+      font-family: 'TTLakes-Medium';
+      transform: translateX(16px);
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      color: $enter__phone--color;
+    }
+  }
+  &--processing {
+    position: absolute;
+    width: 288px;
+    height: 64px;
+    transform: translate(16px, 224px);
+    font-family: 'TTLakes-Medium';
+    font-size: 14px;
+    line-height: 16px;
+    color: #7e7e82;
+    .processing__text {
+      color: $processing__text--color;
+    }
+  }
+  &--send {
+    transform: translate(168px, 306px);
+  }
+}

@@ -1,0 +1,15 @@
+// Обнуление отступов
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+@import url('../../node_modules/swiper/swiper-bundle.css');

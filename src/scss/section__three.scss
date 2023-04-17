@@ -1,0 +1,28 @@
+$three__text--color: #7e7e82;
+
+.section__three {
+  .header__three {
+    margin: auto;
+    width: 320px;
+    height: 80px;
+
+    &--line {
+      display: flex;
+    }
+    &--text {
+      font-family: 'TTLakes-Medium';
+      width: 288px;
+      height: 48px;
+      font-size: 16px;
+      line-height: 24px;
+      margin-top: 16px;
+      margin-left: 16px;
+      letter-spacing: -0.2px;
+      text-transform: uppercase;
+      color: $three__text--color;
+    }
+  }
+  .button__three {
+    display: none;
+  }
+}

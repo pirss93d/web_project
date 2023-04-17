@@ -1,0 +1,70 @@
+$four__title--color: #7e7e82;
+$four__text--color: #1b1c21;
+$four__offer--color: #ffffff;
+$offer__hover--color: #ff3e79;
+.section__four {
+  margin: 0 auto;
+  width: 320px;
+  .services__768 {
+    display: none;
+  }
+
+  .section__info {
+    margin: auto;
+    width: 320px;
+    .four__line {
+      display: flex;
+    }
+    .section__title {
+      margin-top: 16px;
+      margin-left: 16px;
+      width: 312px;
+      height: 24px;
+      &--text {
+        font-family: 'TTLakes-Medium';
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        text-transform: uppercase;
+        color: $four__title--color;
+      }
+    }
+  }
+  &--nds {
+    font-family: 'TTLakes-Regular';
+    margin-left: 16px;
+    width: 288px;
+    height: 137.45px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: $four__text--color;
+  }
+  &--offer {
+    display: flex;
+    font-family: 'TTLakes-Medium';
+    margin-left: 16px;
+    width: 192px;
+    height: 54.98px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: $four__text--color;
+    border: 1px solid $four__offer--color;
+    transition: border 1s ease-out;
+    border-radius: 6px;
+    .offer__text {
+      user-select: none;
+    }
+    .right_arrow {
+      position: absolute;
+      margin: 31.49px 111.4px;
+    }
+  }
+  &--offer:hover {
+    border: 2px solid $offer__hover--color;
+    border-radius: 6px;
+    transition: border 1s ease-out;
+    z-index: 1;
+  }
+}

@@ -1,0 +1,38 @@
+$repair__info--color: #1b1c21;
+$fade__fog--color: #f8f8f8;
+$fade__fog--gradient: rgba(248, 248, 248, 0.0001);
+.swiper2 {
+  width: 320px;
+  height: 200px;
+  .swiper-slide {
+    width: 240px;
+    height: 160px;
+    .icon__go2 {
+      position: absolute;
+      margin-top: 104px;
+      margin-left: 184px;
+    }
+  }
+  .repair__info {
+    font-family: 'TTLakes-Medium';
+    position: absolute;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: $repair__info--color;
+    margin: 16px 16px;
+  }
+  .fade__fog {
+    position: absolute;
+    width: 24px;
+    height: 166px;
+    background: linear-gradient(
+      270deg,
+      $fade__fog--color 16.84%,
+      $fade__fog--gradient 100%
+    );
+    z-index: 2;
+    margin-left: 300px;
+  }
+}

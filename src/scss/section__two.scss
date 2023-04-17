@@ -1,0 +1,46 @@
+$text__color: #7e7e82; //slider__info--text - цвет текста секции два.
+$fade__color--one: #f8f8f8 16.84%; //Размытость на swiper
+$fade__color--two: rgba(248, 248, 248, 0.0001) 100%; ////Размытость на swiper
+main {
+  .section__two {
+    display: flex;
+    margin: auto;
+    width: 320px;
+    height: auto;
+    &--slider {
+      width: 320px;
+      height: 196px;
+      .slider__line {
+        display: flex;
+      }
+      .slider__info {
+        display: flex;
+        width: 320px;
+        height: 80px;
+        &--text {
+          font-family: 'TTLakes-Medium';
+          margin-top: 16px;
+          margin-left: 16px;
+          width: 288px;
+          height: 48px;
+          text-transform: uppercase;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: -0.2px;
+          color: $text__color;
+        }
+      }
+    }
+    &--fade {
+      position: absolute;
+      width: 24px;
+      height: 76px;
+      background: linear-gradient(270deg, $fade__color--one, $fade__color--two);
+      margin: 15px 302px;
+      z-index: 2;
+    }
+    .button__two {
+      display: none;
+    }
+  }
+}

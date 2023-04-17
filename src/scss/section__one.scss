@@ -1,0 +1,133 @@
+$button__text: #7e7e82; //Цвет текста для ribbon(слайдер)
+$button__color: #ffffff; // Цвет фона у ribbon(слайдер)
+$info__text: #1b1c21; // Цвет для текста info
+$button__switch: #1b1c21; // Цвет кнопки switch
+$hover__color: #b8ffec; //Цвет обводки при наведение ribbon(слайдер)
+$fade__color: #ffffff; // Базовый цвет
+$fade__color--one: #f8f8f8 16.84%; //Размытость на slider
+$fade__color--two: rgba(248, 248, 248, 0.0001) 100%; ////Размытость на slider
+$border__img: #ffffff; //Цвет границ картинки .
+.main {
+  filter: blur(0px);
+  .section__one {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    height: auto;
+    margin: auto;
+    &--highlight {
+      margin-top: 24px;
+    }
+    &--title {
+      font-family: 'TTLakes-Bold';
+      width: 288px;
+      height: 40px;
+      letter-spacing: -0.6px;
+      font-size: 28px;
+      line-height: 40px;
+      margin-top: 24px;
+      margin-left: 12px;
+    }
+    &--icons {
+      display: none;
+    }
+    &--ribbon {
+      display: flex;
+      width: 265px;
+      height: 44px;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      margin-top: 24px;
+      margin-left: 16px;
+      padding-right: 5px;
+      white-space: nowrap;
+    }
+    &--buttons {
+      font-family: 'TTLakes-Regular';
+      border: none;
+      color: $button__text;
+      background-color: $button__color;
+      height: 40px;
+      font-size: 16px;
+      .buttons__text1 {
+        width: 221px;
+      }
+    }
+    &--fade {
+      position: absolute;
+      width: 24px;
+      height: 40px;
+      background-color: $fade__color;
+      background: linear-gradient(270deg, $fade__color--one, $fade__color--two);
+      margin-left: 250px;
+    }
+    &--buttons:hover {
+      border: 2px solid $hover__color;
+      border-radius: 6px;
+      z-index: 1;
+    }
+    &--info {
+      font-family: 'TTLakes-Medium';
+      width: 288px;
+      height: auto;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0.2px;
+      color: $info__text;
+      margin-top: 24px;
+      margin-left: 16px;
+      .info__block-768 {
+        display: none;
+      }
+      .info__block--1440 {
+        display: none;
+      }
+      .info__block--two {
+        display: none;
+
+        //Плавное появление текста
+        .text__translator {
+          opacity: 0;
+          transition: opacity 0.2s ease;
+        }
+        .fade-in {
+          opacity: 1;
+        }
+      }
+    }
+    &--switch {
+      display: flex;
+      flex-wrap: wrap;
+      width: 132px;
+      height: 24px;
+      margin-top: 16px;
+      margin-left: 16px;
+      .button__switch {
+        font-family: 'TTLakes-Medium';
+        width: 100px;
+        height: 24px;
+        position: absolute;
+        margin-left: 32px;
+        border: none;
+        color: $button__switch;
+        background-color: $button__color;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        white-space: nowrap;
+      }
+
+      .icon__switch--top {
+        display: none;
+        margin-left: 8px;
+      }
+    }
+    &--img {
+      margin-top: 16px;
+      border: 2px solid $border__img;
+    }
+    &--gps {
+      display: none;
+    }
+  }
+}

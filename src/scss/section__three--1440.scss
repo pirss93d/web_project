@@ -1,0 +1,22 @@
+@media (min-width: 1366px) {
+  .section__three {
+    width: 1120px;
+    margin-left: 306px;
+    .header__three {
+      margin-top: 50px;
+      &--line {
+        width: 1120px;
+      }
+      &--text {
+        margin-top: 16px;
+        margin-left: 32px;
+        width: 316px;
+        height: 24px;
+      }
+    }
+    .button__three {
+      margin-top: 24px;
+      margin-left: 32px;
+    }
+  }
+}

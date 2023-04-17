@@ -1,0 +1,52 @@
+@media (min-width: 1366px) {
+  .feedback__chat {
+    width: 440px;
+    height: 940px;
+    &--section {
+      position: absolute;
+      margin: 0;
+      width: 440px;
+      height: 940px;
+      .cross__feedback {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-top: 0;
+        margin-left: 400px;
+      }
+      .feedback__form {
+        margin-top: 32px;
+        &--input {
+          margin-left: 30px;
+          margin-top: 8px;
+          .feedback__text {
+            width: 179px;
+            height: 24px;
+          }
+          .feedback__name {
+            width: 376px;
+          }
+          .feedback__telephone {
+            width: 376px;
+          }
+          .feedback__email {
+            width: 376px;
+          }
+          .feedback__message {
+            width: 376px;
+            &--text {
+              width: 376px;
+            }
+          }
+          .personal__information {
+            width: 367px;
+            height: 48px;
+          }
+          .button__send {
+            margin-left: 240px;
+          }
+        }
+      }
+    }
+  }
+}

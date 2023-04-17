@@ -1,0 +1,59 @@
+$swiper__slide--color: #ffffff;
+$swiper__border--color: #eaeaea;
+$swiper__hover--color: #b8ffec;
+.swiper.one {
+  margin-top: 16px;
+  width: 320px;
+  height: 100px;
+  .swiper-slide {
+    background: $swiper__slide--color;
+    width: 240px;
+    height: 72px;
+    border-radius: 6px;
+    border: 1px solid $swiper__border--color;
+    transition: border 0.5s ease-out;
+    cursor: pointer;
+    .lenovo__img {
+      position: absolute;
+      margin: 20px 16px;
+    }
+    .icon__go {
+      margin-top: 16px;
+      margin-left: 184px;
+    }
+    .samsung__img {
+      position: absolute;
+      margin: 17px 16px;
+    }
+    .apple__img {
+      position: absolute;
+      margin: 12px 16px;
+    }
+    .viewsonic__img {
+      position: absolute;
+      margin: 26px 14px;
+    }
+    .bosch__img {
+      position: absolute;
+      margin: 21.7px 16px;
+    }
+    .hp__img {
+      position: absolute;
+      margin: 10px 10px;
+    }
+    .acer__img {
+      position: absolute;
+      margin: 24px 16px;
+    }
+    .sony__svg {
+      position: absolute;
+      margin: 23px 14px;
+    }
+  }
+  .swiper-slide:hover {
+    border: 1px solid $swiper__hover--color;
+    border-radius: 6px;
+    transition: border 0.5s ease-out;
+    z-index: 2;
+  }
+}

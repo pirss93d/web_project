@@ -1,0 +1,107 @@
+$info__text: #1b1c21;
+$text__prices--color: #7e7e82;
+
+.swiper.swiper3 {
+  width: 320px;
+  height: 240px;
+  .fade__swiper3 {
+    margin-left: 305px;
+    position: absolute;
+    z-index: 2;
+  }
+  .prices__info {
+    font-family: 'TTLakes-Regular';
+    .service__list--768 {
+      display: none;
+    }
+    .prices__list--768 {
+      display: none;
+    }
+    .time__list--768 {
+      display: none;
+    }
+    .icon__list--768 {
+      display: none;
+    }
+    .prices__line {
+      display: none;
+    }
+    .prices__info--head {
+      position: absolute;
+      width: 228px;
+      height: 56px;
+      margin: 16px 16px;
+      .head__text {
+        width: 126px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+        mix-blend-mode: normal;
+        opacity: 0.72;
+        color: $text__prices--color;
+      }
+      .service__text {
+        margin-top: 4px;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        color: $info__text;
+      }
+    }
+    .prices__info--center {
+      position: absolute;
+      width: 74px;
+      height: 38px;
+      margin: 88px 16px;
+      .service__prices {
+        font-size: 14px;
+        line-height: 16px;
+        mix-blend-mode: normal;
+        opacity: 0.72;
+        color: $text__prices--color;
+      }
+      .prices__text {
+        margin-top: 4px;
+        width: 81px;
+        height: 18px;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        color: $info__text;
+      }
+    }
+    .prices__info--bottom {
+      position: absolute;
+      width: 81px;
+      height: 38px;
+      margin: 142px 16px;
+
+      .info__term {
+        width: 35px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+        color: $text__prices--color;
+        mix-blend-mode: normal;
+        opacity: 0.72;
+      }
+      .info__time {
+        margin-top: 4px;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        color: $info__text;
+      }
+    }
+  }
+  .swiper-slide {
+    margin-left: 8px;
+    height: 200px;
+    .prices__info--768 {
+      display: none;
+    }
+    .img__order {
+      margin: 152px 125px;
+    }
+  }
+}

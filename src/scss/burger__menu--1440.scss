@@ -1,0 +1,81 @@
+@media (min-width: 1366px) {
+  .menu {
+    display: block;
+    width: 306px;
+    height: 1925px;
+    z-index: 1;
+    &__content {
+      &--cross {
+        display: none;
+      }
+      &--group {
+        margin-top: 30px;
+        margin-left: 22px;
+        margin-bottom: 0;
+      }
+      &--search {
+        margin-top: 35px;
+        margin-left: 118.45px;
+      }
+    }
+    &__list {
+      margin: 0;
+      &--highlight {
+        width: 3.83px;
+        height: 28.31px;
+        margin-top: 164px;
+        position: absolute;
+      }
+      &--services {
+        margin-top: 118px;
+        margin-left: 24px;
+        .equipment__repair {
+          height: 21.33px;
+        }
+        .service__services {
+          margin-top: 28.31px;
+          height: 21.33px;
+        }
+        .corporative__clients {
+          margin-top: 28.31px;
+          height: 21.33px;
+        }
+        .equipment__sellers {
+          margin-top: 28.31px;
+          height: 21.33px;
+        }
+        .services__partners {
+          margin-top: 28.31px;
+          height: 21.33px;
+        }
+        .services__manufacturers {
+          margin-top: 28.31px;
+          height: 21.33px;
+        }
+        .our__service {
+          margin-top: 28.31px;
+          height: 21.33px;
+        }
+        .servises__contacts {
+          margin-top: 28.31px;
+          height: 21.33px;
+        }
+      }
+    }
+    &__section {
+      margin-top: 241px;
+      margin-left: 19px;
+    }
+    &__email {
+      margin-left: 19px;
+    }
+    &__telefon {
+      margin-left: 19px;
+      font-size: 24px;
+    }
+    &__languages {
+      margin-top: 40.82px;
+      margin-left: 21px;
+    }
+  }
+}

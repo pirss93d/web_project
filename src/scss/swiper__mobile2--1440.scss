@@ -1,0 +1,16 @@
+@media (min-width: 1366px) {
+  .swiper.swiper2 {
+    width: 1056px;
+    margin-top: 24px;
+    margin-left: 32px;
+    .swiper-wrapper {
+      .swiper-slide {
+        width: 240px;
+        height: 160px;
+      }
+    }
+    .icon__go2 {
+      margin-left: 184px;
+    }
+  }
+}

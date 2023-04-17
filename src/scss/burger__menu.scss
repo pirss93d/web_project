@@ -1,0 +1,135 @@
+$bg__menu: #ffffff;
+$menu__list: #1b1c21;
+$mobile__hover: #41f6d7;
+$mobile__border: #ffffff;
+$menu__languages--switch: #7e7e82;
+$hover__border: #7e7e82;
+
+.menu {
+  display: none;
+  position: absolute;
+  font-family: 'TTLakes-Medium';
+  width: 320px;
+  height: 676px;
+  background-color: $bg__menu;
+  z-index: 33;
+
+  &__content {
+    display: flex;
+    position: absolute;
+
+    &--cross {
+      margin-top: 24px;
+      margin-left: 16px;
+      cursor: pointer;
+    }
+    &--group {
+      margin-top: 18.73px;
+      margin-left: 16.73px;
+    }
+    &--search {
+      margin-top: 24px;
+      margin-left: 94.73px;
+    }
+  }
+  &__list {
+    display: flex;
+    margin-top: 96px;
+    width: 320px;
+    &--services {
+      margin-top: 4px;
+      margin-left: 12px;
+      width: auto;
+      height: auto;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      color: $menu__list;
+      .equipment__repair {
+        height: 24px;
+      }
+      .service__services {
+        margin-top: 24px;
+        height: 24px;
+      }
+      .corporative__clients {
+        margin-top: 24px;
+        height: 24px;
+      }
+      .equipment__sellers {
+        margin-top: 24px;
+        height: 24px;
+      }
+      .services__partners {
+        margin-top: 24px;
+        height: 24px;
+      }
+      .services__manufacturers {
+        margin-top: 24px;
+        height: 24px;
+      }
+      .our__service {
+        margin-top: 24px;
+        height: 24px;
+      }
+      .servises__contacts {
+        margin-top: 24px;
+        height: 24px;
+      }
+      .mobile {
+        cursor: pointer;
+        border: 2px solid $mobile__border;
+        transition: border 1s ease-out;
+      }
+      .mobile:hover {
+        border: 2px solid $mobile__hover;
+        border-radius: 4px;
+        color: $hover__border;
+        transition: border 1s ease-out;
+      }
+    }
+  }
+  &__section {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-left: 16px;
+    width: 150px;
+    height: 40px;
+  }
+  &__email {
+    margin-top: 16px;
+    margin-left: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+  }
+  &__telefon {
+    font-family: 'TTLakes-Bold';
+    margin-top: 12px;
+    margin-left: 24px;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+  }
+  &__languages {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-left: 24px;
+    width: 86px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+
+    &--switch:hover {
+      color: $menu__languages--switch;
+      cursor: pointer;
+    }
+  }
+}
+.burger-menu {
+  cursor: pointer;
+}

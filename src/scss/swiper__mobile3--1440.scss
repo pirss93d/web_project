@@ -1,0 +1,32 @@
+@media (min-width: 1366px) {
+  .swiper.swiper3#thirdSwiper {
+    width: 1056px;
+    height: auto;
+    margin-left: 32px;
+    .swiper-wrapper {
+      .swiper-slide {
+        margin: 0;
+        width: 1056px;
+        .prices__info {
+          .service__list--768 {
+            margin-top: 23px;
+            margin-left: 24px;
+          }
+          .prices__list--768 {
+            margin-left: 494px;
+          }
+          .time__list--768 {
+            margin-left: 721px;
+          }
+          .icon__list--768 {
+            margin-left: 913px;
+          }
+          .prices__line {
+            width: 1008px;
+            margin-left: 24px;
+          }
+        }
+      }
+    }
+  }
+}

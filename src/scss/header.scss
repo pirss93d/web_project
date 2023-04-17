@@ -1,0 +1,75 @@
+$divider-bg: #eaeaea;
+//fonts красивые шрифты
+@font-face {
+  font-family: 'TTLakes-Bold';
+  src: url(../fonts/TTLakes-Bold.woff);
+}
+@font-face {
+  font-family: 'TTLakes-Medium';
+  src: url(../fonts/TTLakes-Medium.woff);
+}
+@font-face {
+  font-family: 'TTLakes-Regular';
+  src: url(../fonts/TTLakes-Regular.woff);
+}
+header {
+  .header__icons {
+    display: flex;
+    width: 320px;
+    height: 88px;
+    margin: 0 auto;
+
+    .icon__burger {
+      width: 40px;
+      height: 40px;
+      margin-top: 24px;
+      margin-left: 16px;
+    }
+    .icon__divider--768 {
+      display: none;
+      width: 2px;
+      height: 32px;
+    }
+    .icon__group {
+      width: 96.55px;
+      height: 50.81px;
+      margin-top: 18.59px;
+      margin-left: 16.73px;
+    }
+    .icon__divider {
+      width: 2px;
+      height: 32px;
+      background-color: $divider-bg;
+      border-radius: 1px;
+      margin-top: 28px;
+      margin-left: 16.73px;
+    }
+    .icon__repair {
+      width: 40px;
+      height: 40px;
+      margin-top: 24px;
+      margin-left: 20px;
+    }
+    .icon__checkst {
+      width: 40px;
+      height: 40px;
+      margin-top: 24px;
+      margin-left: 16px;
+    }
+  }
+  .icon__shadow {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+//display none
+.icon__call {
+  display: none;
+}
+.icon__chat {
+  display: none;
+}
+.icon__profile {
+  display: none;
+}

@@ -1,0 +1,37 @@
+@media (min-width: 768px) {
+  $sw__slide-color: #eaeaea;
+  $bg__swiper: #ffffff;
+  $hover__swiper: #41f6d7;
+  .swiper.swiper2 {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 720px;
+    height: 165px;
+    .fade__fog {
+      display: none;
+    }
+    .swiper-wrapper {
+      justify-content: space-between;
+      flex-wrap: wrap;
+      height: auto;
+      .swiper-slide {
+        width: 224px;
+        height: 160px;
+        background: $bg__swiper;
+        border: 1px solid $sw__slide-color;
+        border-radius: 6px;
+        margin-bottom: 24px;
+        transition: border 1s ease-out;
+        cursor: pointer;
+      }
+      .swiper-slide:hover {
+        border: 1px solid $hover__swiper;
+        transition: border 1s ease-out;
+      }
+    }
+    .icon__go2 {
+      margin-top: 104px;
+      margin-left: 168px;
+    }
+  }
+}
